@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent {
+    width: 60%;
+    height: calc(100vh - 50px);
+    margin: 25px auto;
+    background-color: #51509B;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.parent .main-box .container h1{
+    color: white;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 25px;
+    display: inline-block;
+}
+.parent .main-box .container .like {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #E5AF40;
+}
+.parent .main-box .container p {
+    color: white;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.parent .main-box .container .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent .main-box .container .boxes .box-one {
+    background-color: white;
+    width: 300px;
+    height: 340px;
+    padding: 40px;
+    border-radius: 6px;
+}
+.parent .main-box .container .boxes .box-one {
+    color: black;
+}
+.parent .main-box .container .boxes .box-one h2{
+    font-size: 20px;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    display: inline;
+    margin-left: 10px;
+}
+.parent .main-box .container .boxes .box-one h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: #FFEBBF;
+    z-index: -1;
+}
+.parent .main-box .container .boxes .box-one .content {
+    margin-top: 20px;
+}
+.parent .main-box .container .boxes .box-one .content p {
+    color: black;
+    font-size: 11px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   
+}
+.parent .main-box .container .boxes .box-one .price {
+    color: #4A5568;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    display: inline;
+}
+.parent .main-box .container .boxes .box-one .price sup{
+    font-size: 15px;
+    margin: 0;
+}
+.parent .main-box .container .boxes .box-one button + p {
+    color: #4A5568;
+    margin-top: 30px;
+}
+.parent .main-box .container .boxes .box-one .price sub {
+    font-weight: normal;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -8px;
+    bottom: 5px;
+}
+.parent .main-box .container .boxes .box-one button{
+    margin-left: 100px;
+    padding: 10px 20px ;
+    color: white;
+    border: none;
+    background-color: #E5AF40;
+    border-radius: 2px;
+}
+.parent .main-box .container .boxes .box-two {
+    background-color: white;
+    width: 220px;
+    height: 180px;
+    padding: 40px;
+    border-radius: 6px;
+    position: relative;
+    left: -10px;
+}
+.parent .main-box .container .boxes .box-two h2 {
+    font-size: 20px;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    display: inline;
+    margin-left: 10px;
+}
+.parent .main-box .container .boxes .box-two h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: #FFEBBF;
+    z-index: -1;
+}
+.parent .main-box .container .boxes .box-two .content {
+    margin-top: 20px;
+}
+.parent .main-box .container .boxes .box-two .content p{
+    color: black;
+    font-size: 11px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.parent .main-box .container .boxes .box-two .price {
+    color: #4A5568;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    display: inline;
+}
+.parent .main-box .container .boxes .box-two .price sup{
+    font-size: 15px;
+    margin: 0;
+}
+
+.parent .main-box .container .boxes .box-two .price sub {
+    font-weight: normal;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -8px;
+    bottom: 5px;
+}
+.parent .main-box .container .boxes .box-two button{
+    margin-left: 32px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: #E5AF40;
+    border-radius: 2px;
+}
+svg {
+    display: inline;
+    height: 20px;
+    margin-bottom: -3px;
+    fill: #E5AF40;
+}
